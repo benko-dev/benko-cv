@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap');
+
+@font-face {
+    font-family: 'Mabry';
+    src: local('Mabry Pro Regular'), local('Mabry-Pro-Regular'),
+        url('./fonts/MabryPro-Regular.woff2') format('woff2'),
+        url('./fonts/MabryPro-Regular.woff') format('woff'),
+        url('./fonts/MabryPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mabry';
+    src: local('Mabry Pro Light'), local('Mabry-Pro-Light'),
+        url('./fonts/MabryPro-Light.woff2') format('woff2'),
+        url('./fonts/MabryPro-Light.woff') format('woff'),
+        url('./fonts/MabryPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mabry';
+    src: local('Mabry Pro Bold'), local('Mabry-Pro-Bold'),
+        url('./fonts/MabryPro-Bold.woff2') format('woff2'),
+        url('./fonts/MabryPro-Bold.woff') format('woff'),
+        url('./fonts/MabryPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mabry';
+    src: local('Mabry Pro Medium'), local('Mabry-Pro-Medium'),
+        url('./fonts/MabryPro-Medium.woff2') format('woff2'),
+        url('./fonts/MabryPro-Medium.woff') format('woff'),
+        url('./fonts/MabryPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: local('Coolvetica Bold'), local('Coolvetica-Bold'),
+        url('./fonts/CoolveticaRg-Bold.woff2') format('woff2'),
+        url('./fonts/CoolveticaRg-Bold.woff') format('woff'),
+        url('./fonts/CoolveticaRg-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

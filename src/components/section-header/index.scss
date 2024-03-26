@@ -1,0 +1,60 @@
+@import "../../fonts.scss";
+@import "../../ui.scss";
+@import "../../var.scss";
+
+
+.section-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    //overflow: hidden;
+    padding-top: 5%;
+    z-index: 99;
+
+    &__live-line {
+        position: relative;
+        white-space: nowrap;
+    }
+
+    &__live-line-wrapper {
+        display: flex;
+        justify-content: flex-start;
+
+        z-index: 10;
+
+        position: relative;
+
+        &:nth-child(2){
+            position: absolute;
+            left: 100%;
+            top: 0;
+        }
+    }
+    &__line-el {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+
+        font-family: Syne;
+        font-size: 40px;
+        color: rgba(119, 119, 119, 0.1);
+        text-transform: uppercase;
+
+        user-select: none;
+
+        &::after {
+            content: '';
+            width: 58px;
+            height: 29px;
+            margin: 0 57px;
+            background: url('../../img/decor/live-line-decor.svg') no-repeat 100%;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        margin-top: -20px;
+    }
+}

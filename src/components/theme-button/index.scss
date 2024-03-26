@@ -1,0 +1,201 @@
+@import "../../fonts.scss";
+@import "../../ui.scss";
+@import "../../var.scss";
+
+.scheme-btn {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: box-shadow ease .3s;
+    z-index: 4;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 44px;
+        height: 44px;
+        background: linear-gradient(180deg, rgba(185, 185, 185, 0.20) 0%, rgba(255, 209, 46, 0.20) 100%);
+        backdrop-filter: blur(10px);
+        opacity: 0;
+
+        transition: opacity ease .3s;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 44px;
+        height: 44px;
+        background: linear-gradient(180deg, rgba(246, 246, 246, 0.20) 0%, rgba(255, 224, 113, 0.20) 100%);
+        backdrop-filter: blur(10px);
+        opacity: 0;
+        z-index: -1;
+
+        transition: opacity ease .3s;
+    }
+
+    &__icon {
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        transition: transform cubic-bezier(.25,.75,.5,1.25) .3s;
+
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        align-items: center;
+
+        pointer-events: none;
+
+        &_light {
+            svg {
+                width: 30px;
+                animation: moonAnim ease infinite 15s;
+            }
+        }
+
+        &_dark {
+            transform: translate(100%, 20%);
+
+            svg {
+
+                &:last-child {
+                    position: absolute;
+                    animation: sunAnim linear infinite 20s;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.06);
+
+        &::before {
+            opacity: 1;
+        }
+        &::after {
+            opacity: 0;
+        }
+    }
+}
+
+.scheme-btn__star-one {
+    animation: starAnimOne ease infinite 15s;
+}
+.scheme-btn__star-two {
+    animation: starAnimTwo ease infinite 15s;
+}
+.scheme-btn__star-three {
+    animation: starAnimThree ease infinite 15s;
+}
+
+@keyframes moonAnim {
+    0% {
+        transform: rotate(0deg) translate(0px, 0px);
+    } 7% {
+        transform: rotate(-4deg) translate(2px, 0px);
+    } 15% {
+        transform: rotate(5deg) translate(1px, 0px);
+    } 30% {
+        transform: rotate(2deg) translate(0px, 0px);
+    } 32% {
+        transform: rotate(5deg) translate(1px, 1px);
+    } 34% {
+        transform: rotate(-5deg) translate(2px, 0px);
+    } 36% {
+        transform: rotate(0) translate(0px, 0px);
+    } 45% {
+        transform: rotate(-5deg) translate(0px, -1px);
+    } 60% {
+        transform: rotate(3deg) translate(0px, 1px);
+    } 80% {
+        transform: rotate(-3deg) translate(2px, 1px);
+    } 90% {
+        transform: rotate(5deg) translate(1px, 1px);
+    } 100% {
+        transform: rotate(0) translate(0px, 0px); 
+    }
+}
+@keyframes sunAnim {
+    0% {
+        transform: rotate(0deg);
+    } 100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes starAnimOne {
+    0% {
+        fill: #FFC114;
+    } 32% {
+        fill: #FFC114;
+    } 32.9% {
+        fill: #fff;
+    } 33.8% {
+        fill: #FFC114;
+    } 60% {
+        fill: #FFC114;
+    } 60.8% {
+        fill: #fff;
+    } 61.9% {
+        fill: #FFC114;
+    } 100% {
+        fill: #FFC114;
+    }
+}
+@keyframes starAnimTwo {
+    0% {
+        fill: #FFC114;
+    } 33% {
+        fill: #FFC114;
+    } 33.9% {
+        fill: #fff;
+    } 34.8% {
+        fill: #FFC114;
+    } 65% {
+        fill: #FFC114;
+    } 65.8% {
+        fill: #fff;
+    } 66.9% {
+        fill: #FFC114;
+    } 100% {
+        fill: #FFC114;
+    }
+}
+@keyframes starAnimThree {
+    0% {
+        fill: #FFC114;
+        transform: scale(1);
+    } 34% {
+        fill: #FFC114;
+        transform: scale(1);
+    } 34.9% {
+        fill: #fff;
+        transform: scale(1.1);
+    } 35.8% {
+        fill: #FFC114;
+        transform: scale(1);
+    } 70% {
+        fill: #FFC114;
+    } 70.8% {
+        fill: #fff;
+    } 71.9% {
+        fill: #FFC114;
+    } 100% {
+        fill: #FFC114;
+        transform: scale(1);
+    }
+}

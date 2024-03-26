@@ -1,0 +1,128 @@
+@import "fonts.scss";
+@import "var.scss";
+
+
+[class*="__container-big"] {
+    max-width: 1480px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+[class*="__container-small"] {
+    max-width: 1345px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+[class*="__decor"], [class*="brash"] {
+    pointer-events: none;
+}
+body {
+    overflow: hidden;
+}
+
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html.lenis {
+    height: auto;
+  }
+  
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }
+
+.lenis-stopped body {
+    overflow: hidden;
+}
+[data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+
+.title {
+    color: #252525;
+    transition: color ease $animSchemeSpeed;
+    font-family: Rubik;
+    font-size: 48px;
+    @media (max-width: 1600px) {
+        font-size: calc(30px + (48 - 30) * ((100vw - 320px) / (1600 - 320)));
+    }
+    font-weight: 700;
+    line-height: 120%;
+    text-transform: capitalize;
+
+    &_hero {
+        font-size: 82px;
+
+        @media (max-width: 1600px) {
+            font-size: calc(36px + (82 - 36) * ((100vw - 320px) / (1600 - 320)));
+        }
+    }
+
+    span {
+        color: $blue;
+    }
+}
+
+.lenis.lenis-stopped {
+    overflow: hidden;
+  }
+
+
+.anim-circle-type1 {
+    animation: anim-circle-type1 ease infinite 10s;
+}
+.anim-circle-type2 {
+    animation: anim-circle-type2 ease infinite 10s;
+}
+.anim-circle-type3 {
+    animation: anim-circle-type3 ease infinite 10s;
+}
+
+
+@keyframes anim-circle-type1 {
+    0% {
+        transform: rotate(0deg) translate(0, 0);
+    } 30% {
+        transform: rotate(90deg) translate(0,0);
+    } 50% {
+        transform: rotate(230deg) translate(-20%, 0);
+    } 100% {
+        transform: rotate(360deg) translate(0, 0);
+    }
+}
+@keyframes anim-circle-type2 {
+    0% {
+        transform: rotate(0deg) translate(0, 0) scale(1);
+    } 60% {
+        transform: rotate(90deg) translate(20%,0) scale(.6);
+    } 75% {
+        transform: rotate(200deg) translate(0, 10%) scale(1);
+    } 100% {
+        transform: rotate(360deg) translate(0, 0) scale(1);
+    }
+}
+@keyframes anim-circle-type3 {
+    0% {
+        transform: rotate(0deg) translate(0, 0) scale(1);
+    } 50% {
+        transform: rotate(90deg) translate(-10%,0) scale(1);
+    } 65% {
+        transform: rotate(200deg) translate(0, 10%) scale(0.6);
+    } 100% {
+        transform: rotate(360deg) translate(0, 0) scale(1);
+    }
+}

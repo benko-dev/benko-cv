@@ -1,0 +1,92 @@
+@import "../../fonts.scss";
+@import "../../ui.scss";
+@import "../../var.scss";
+
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:first-child {
+        margin: 0 auto;
+    }
+
+    gap: 42px;
+    @media (max-width: 767.98px) {
+        gap: calc(0px + (42 - 0) * ((100vw - 320px) / (767.98 - 320)));
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 700;
+        text-transform: capitalize;
+        padding-bottom: 14px;
+
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 36px;
+
+        button {
+            color: #FFF;
+            background-color: transparent;
+            font-family: Mabry;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        .button {
+            border: 2px solid #fff;
+
+            &::before, &__decor {
+                background-color: #fff;
+            }
+
+            &__text-hidden {
+                color: $black;
+            }
+        }
+    }
+}
+.footer {
+    .social-list {
+        display: flex;
+        row-gap: 14px;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        a {
+            display: block;
+            width: 40px;
+            height: 40px;
+
+            @media (max-width: 1200px) {
+                width: calc(24px + (40 - 24) * ((100vw - 320px) / (1200 - 320)));
+                height: calc(24px + (40 - 24) * ((100vw - 320px) / (1200 - 320)));
+            }
+            @media (max-width: 480px) {
+                width: 32px;
+                height: 32px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: center;
+            }
+        }
+    }
+}
