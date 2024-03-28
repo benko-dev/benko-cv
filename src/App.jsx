@@ -54,7 +54,7 @@ const projectsPortfolio = [
     imageUrl: HounterPreview,
     category: [2],
     date: "2021",
-    demoLink: "https://dimad10.github.io/Hounter/",
+    demoLink: "https://benko-dev.github.io/Hounter/",
     tags: [
       ["html", "css/scss", "js libraries", "js/javascript"],
       [],
@@ -74,7 +74,7 @@ const projectsPortfolio = [
     imageUrl: CafePreview,
     category: [2],
     date: "2022",
-    demoLink: "https://dimad10.github.io/Cafe_Street/",
+    demoLink: "https://benko-dev.github.io/CafeStreet/",
     tags: [
       ["html", "css/scss", "js libraries", "js/javascript", "jQuery"],
       [],
@@ -94,7 +94,7 @@ const projectsPortfolio = [
     imageUrl: ArtPreview,
     category: [2],
     date: "2022",
-    demoLink: "https://dimad10.github.io/Fyrre-Magazine/",
+    demoLink: "https://benko-dev.github.io/Art-Life/",
     tags: [
       ["html", "css/scss", "js libraries", "js/javascript"],
       [],
@@ -113,7 +113,7 @@ const projectsPortfolio = [
     imageUrl: SashaShavitPreview,
     category: [2],
     date: "2023",
-    demoLink: "https://dimad10.github.io/sasha-shavit/",
+    demoLink: "https://benko-dev.github.io/SashaShavit/",
     tags: [
       ["html", "css/scss", "js libraries", "js/javascript"],
       [],
@@ -133,7 +133,7 @@ const projectsPortfolio = [
     imageUrl: MemcoinPreview,
     category: [2],
     date: "2023",
-    demoLink: "https://dimad10.github.io/memcoin/",
+    demoLink: "https://benko-dev.github.io/Memcoin/",
     tags: [
       ["html", "css/scss", "js libraries", "js/javascript"],
       [],
@@ -153,7 +153,7 @@ const projectsPortfolio = [
     imageUrl: ToDoPreview,
     category: [2, 1],
     date: "2023",
-    demoLink: "https://to-do-app-dimad10.vercel.app/",
+    demoLink: "https://to-do-app-lovat-eight.vercel.app/",
     designLink:
       "https://www.figma.com/community/file/1287029163993360080/simple-todo-list-design",
     tags: [
@@ -175,7 +175,7 @@ const projectsPortfolio = [
     imageUrl: AsicPreview,
     category: [2],
     date: "2024",
-    demoLink: "https://dimad10.github.io/Asicavenue/",
+    demoLink: "https://benko-dev.github.io/Asicavenue/",
     tags: [
       ["html", "css/scss", "js libraries", "js/javascript"],
       [],
