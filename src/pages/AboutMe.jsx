@@ -5979,7 +5979,7 @@ const AboutMe = () => {
                 </p>
 
                 <p>
-                  I've been working as a freelancer for a year, constantly
+                  I've been working as a freelancer for a 2 years, constantly
                   taking orders. You can view reviews and all other information{" "}
                   <a
                     href="https://www.weblancer.net/users/dzubenko_d/"
