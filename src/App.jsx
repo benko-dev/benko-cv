@@ -45,6 +45,14 @@ import ToDoDesktop from "./img/todo/desktop.png";
 import AsicPreview from "./img/asic/preview.png";
 import AsicMobile from "./img/asic/mobile.png";
 import AsicDesktop from "./img/asic/desktop.png";
+// NEXT AUTH APP
+import AuthPreview from "./img/NextAuthApp/preview.png";
+import AuthMobile from "./img/NextAuthApp/mobile.png";
+import AuthDesktop from "./img/NextAuthApp/preview.png";
+// CREON APP
+import CreonPreview from "./img/CreonApp/preview.png";
+import CreonMobile from "./img/CreonApp/mobile.png";
+import CreonDesktop from "./img/CreonApp/preview.png";
 
 const projectsPortfolio = [
   {
@@ -187,6 +195,70 @@ const projectsPortfolio = [
     ],
     mobilePreview: AsicMobile,
     desktopPreview: AsicDesktop,
+  },
+  {
+    pos: 8,
+    title: "Next Auth App",
+    label: "development",
+    imageUrl: AuthPreview,
+    category: [2],
+    date: "2024",
+    demoLink: "https://next-auth-app-eosin.vercel.app/",
+    tags: [
+      [
+        "html",
+        "css/scss",
+        "js libraries",
+        "js/javascript",
+        "react js",
+        "next.js",
+        "typescript",
+        "module css",
+      ],
+      [],
+      ["bem metodology", "flex-grid", "git/github", "vercel"],
+    ],
+    aboutText: [
+      "A simple web application using Next.JS to demonstrate my ability to work with authorization and registration and working with tools that offer libraries. The application is fully adaptive for any screen resolution and for any client.",
+      "Provided logic:",
+      " - Unauthorized users are not allowed to access the home page and order page.",
+      " - Authorization is possible using Google or Microsoft account, as well as using user credentials (automatically when loading the page) and username with password.",
+      " - Registration is possible using the same Google and Microsoft accounts, or using your username and creating a strong password.",
+      " - In case of successful authorization or registration, the user is automatically redirected to the main page and also allows you to log out of your account.",
+      " - In case of unsuccessful authorization or registration, the user is automatically redirected back to the login or registration page.",
+    ],
+    mobilePreview: AuthMobile,
+    desktopPreview: AuthDesktop,
+  },
+  {
+    pos: 9,
+    title: "Creon App",
+    label: "development",
+    imageUrl: CreonPreview,
+    category: [2],
+    date: "2024",
+    demoLink: "https://creon-app-eosin.vercel.app/",
+    tags: [
+      [
+        "html",
+        "css/scss",
+        "js libraries",
+        "js/javascript",
+        "react js",
+        "next.js",
+        "typescript",
+        "module css",
+        "tailwind css",
+        "framer motion",
+      ],
+      [],
+      ["bem metodology", "flex-grid", "git/github", "vercel"],
+    ],
+    aboutText: [
+      "A simple web application using Next.JS to demonstrate my project structuring, motion designing and working with some tools and libraries. The application is fully adaptive for any screen resolution and for any client. I also added a simple but beautiful animation of elements when scrolling and for interaction with some elements that call for action.",
+    ],
+    mobilePreview: CreonMobile,
+    desktopPreview: CreonDesktop,
   },
 ];
 

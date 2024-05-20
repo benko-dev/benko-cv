@@ -27,14 +27,29 @@ gsap.registerPlugin(ScrollTrigger);
 const developSkills = [
   "HTML",
   "CSS/SCSS",
+  "Module CSS",
+  "Tailwind CSS",
   "JavaScript",
   "jQuery",
   "JS libraries",
   "React JS",
+  "Next.JS",
+  "TypeScript",
+  "Framer Motion",
+  "GSAP",
   "react-router-dom",
+  "MUI",
+  "Ant Design",
+  "Chakra UI",
 ];
 const designSkills = ["Figma", "Adobe PSD", "Adobe XD", "Sketch"];
-const otherSkills = ["Git/GitHub", "API", "BEM metodology", "grid/flexbox"];
+const otherSkills = [
+  "Git/GitHub",
+  "API",
+  "BEM metodology",
+  "grid/flexbox",
+  "Vercel",
+];
 
 const AboutMe = () => {
   const navigate = useNavigate();

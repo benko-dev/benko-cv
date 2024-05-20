@@ -45,7 +45,7 @@ const servicesIcons = [
     alt: "Instagram link",
     url: "https://instagram.com/benko_web_dev?igshid=OGQ5ZDc2ODk2ZA==",
   },
-  { link: github, alt: "GitHub link", url: "https://github.com/benko-dev" },
+  { link: github, alt: "GitHub link", url: "https://github.com/DimaD10" },
 ];
 
 const Layout = ({
