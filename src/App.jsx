@@ -54,49 +54,18 @@ import CreonPreview from "./img/CreonApp/preview.png";
 import CreonMobile from "./img/CreonApp/mobile.png";
 import CreonDesktop from "./img/CreonApp/preview.png";
 
+// DTF Configurator
+import DtfPreview from "./img/DTFConfigurator/desktop.png";
+import DtfMobile from "./img/DTFConfigurator/mobile.png";
+import DtfDesktop from "./img/DTFConfigurator/desktop.png";
+// Rhinestones Configurator
+import RhinestonesPreview from "./img/RhinestonesConfigurator/desktop.png";
+import RhinestonesMobile from "./img/RhinestonesConfigurator/mobile.png";
+import RhinestonesDesktop from "./img/RhinestonesConfigurator/desktop.png";
+
 const projectsPortfolio = [
   {
     pos: 1,
-    title: "Hounter",
-    label: "development",
-    imageUrl: HounterPreview,
-    category: [2],
-    date: "2021",
-    demoLink: "https://benko-dev.github.io/Hounter/",
-    tags: [
-      ["html", "css/scss", "js libraries", "js/javascript"],
-      [],
-      ["bem metodology", "flex-grid", "git/github"],
-    ],
-    aboutText: [
-      "One of my first works.",
-      "One of my first works. There is also a script for selecting categories using vanilla JS. The site is adaptive and made for all client solutions. Just a simple dynamic website on HTML/CSS/JS stack.",
-    ],
-    mobilePreview: HounterMobile,
-    desktopPreview: HounterDesktop,
-  },
-  {
-    pos: 2,
-    title: "CafeStreet",
-    label: "development",
-    imageUrl: CafePreview,
-    category: [2],
-    date: "2022",
-    demoLink: "https://benko-dev.github.io/CafeStreet/",
-    tags: [
-      ["html", "css/scss", "js libraries", "js/javascript", "jQuery"],
-      [],
-      ["bem metodology", "flex-grid", "git/github"],
-    ],
-    aboutText: [
-      "Typical street cafe website in HTML/CSS/JS using jQuery.",
-      "When designing, I used Flexbox, which works adequately on all modern browsers. You can also see a cool mouse-parallax effect here. The result is a fully cross-browser, reliable, responsive website that is ready to fit on all modern CMSs.",
-    ],
-    mobilePreview: CafeMobile,
-    desktopPreview: CafeDesktop,
-  },
-  {
-    pos: 3,
     title: "Art & Life",
     label: "development",
     imageUrl: ArtPreview,
@@ -115,47 +84,7 @@ const projectsPortfolio = [
     desktopPreview: ArtDesktop,
   },
   {
-    pos: 4,
-    title: "Sasha Shavit",
-    label: "development",
-    imageUrl: SashaShavitPreview,
-    category: [2],
-    date: "2023",
-    demoLink: "https://benko-dev.github.io/SashaShavit/",
-    tags: [
-      ["html", "css/scss", "js libraries", "js/javascript"],
-      [],
-      ["bem metodology", "flex-grid", "git/github"],
-    ],
-    aboutText: [
-      "Simple example as a website on HTML/CSS/JS stack.",
-      "I wrote the quiz myself manually using vanilla JS. Great example for my own sticky header. The site is adaptive and made for all client solutions.",
-    ],
-    mobilePreview: SashaShavitMobile,
-    desktopPreview: SashaShavitDesktop,
-  },
-  {
-    pos: 5,
-    title: "Memcoin",
-    label: "development",
-    imageUrl: MemcoinPreview,
-    category: [2],
-    date: "2023",
-    demoLink: "https://benko-dev.github.io/Memcoin/",
-    tags: [
-      ["html", "css/scss", "js libraries", "js/javascript"],
-      [],
-      ["bem metodology", "flex-grid", "git/github"],
-    ],
-    aboutText: [
-      "Dynamic website on HTML/CSS/JS.",
-      "Here you can check my own mause-parallax using. The site is adaptive and made for all client solutions. An animation of the appearance of elements when scrolling was also used, which enlivened the site a bit.",
-    ],
-    mobilePreview: MemcoinMobile,
-    desktopPreview: MemcoinDesktop,
-  },
-  {
-    pos: 6,
+    pos: 2,
     title: "ToDo App",
     label: "design & development",
     imageUrl: ToDoPreview,
@@ -177,7 +106,7 @@ const projectsPortfolio = [
     desktopPreview: ToDoDesktop,
   },
   {
-    pos: 7,
+    pos: 3,
     title: "Asicavanue",
     label: "development",
     imageUrl: AsicPreview,
@@ -197,41 +126,7 @@ const projectsPortfolio = [
     desktopPreview: AsicDesktop,
   },
   {
-    pos: 8,
-    title: "Next Auth App",
-    label: "development",
-    imageUrl: AuthPreview,
-    category: [2],
-    date: "2024",
-    demoLink: "https://next-auth-app-eosin.vercel.app/",
-    tags: [
-      [
-        "html",
-        "css/scss",
-        "js libraries",
-        "js/javascript",
-        "react js",
-        "next.js",
-        "typescript",
-        "module css",
-      ],
-      [],
-      ["bem metodology", "flex-grid", "git/github", "vercel"],
-    ],
-    aboutText: [
-      "A simple web application using Next.JS to demonstrate my ability to work with authorization and registration and working with tools that offer libraries. The application is fully adaptive for any screen resolution and for any client.",
-      "Provided logic:",
-      " - Unauthorized users are not allowed to access the home page and order page.",
-      " - Authorization is possible using Google or Microsoft account, as well as using user credentials (automatically when loading the page) and username with password.",
-      " - Registration is possible using the same Google and Microsoft accounts, or using your username and creating a strong password.",
-      " - In case of successful authorization or registration, the user is automatically redirected to the main page and also allows you to log out of your account.",
-      " - In case of unsuccessful authorization or registration, the user is automatically redirected back to the login or registration page.",
-    ],
-    mobilePreview: AuthMobile,
-    desktopPreview: AuthDesktop,
-  },
-  {
-    pos: 9,
+    pos: 4,
     title: "Creon App",
     label: "development",
     imageUrl: CreonPreview,
@@ -259,6 +154,62 @@ const projectsPortfolio = [
     ],
     mobilePreview: CreonMobile,
     desktopPreview: CreonDesktop,
+  },
+  {
+    pos: 5,
+    title: "DTF Configurator",
+    label: "design & development",
+    imageUrl: DtfPreview,
+    category: [2, 1],
+    date: "2025",
+    demoLink: "https://dtfonline.pl/en/dtf-configurator/",
+    tags: [
+      [
+        "html",
+        "css/scss",
+        "js libraries",
+        "js/javascript",
+        "php",
+        "wordpress",
+        "custom plugins",
+      ],
+      ["figma"],
+      ["bem metodology", "flex-grid"],
+    ],
+    aboutText: [
+      "Custom Product Builder for Clothing Design.",
+      "An interactive product configurator that allows users to customize clothing items by selecting materials, sizes, colors, and uploading personal designs. Built with a focus on performance, usability, and mobile-first experience, it provides instant visual feedback and price calculation based on selected options."
+    ],
+    mobilePreview: DtfMobile,
+    desktopPreview: DtfDesktop,
+  },
+  {
+    pos: 6,
+    title: "Rhinestones Configurator",
+    label: "design & development",
+    imageUrl: RhinestonesPreview,
+    category: [2, 1],
+    date: "2025",
+    demoLink: "https://dtfonline.pl/en/rhinestones-configurator/",
+    tags: [
+      [
+        "html",
+        "css/scss",
+        "js libraries",
+        "js/javascript",
+        "php",
+        "wordpress",
+        "custom plugins",
+      ],
+      ["figma"],
+      ["bem metodology", "flex-grid"],
+    ],
+    aboutText: [
+      "Interactive Designer for Custom Crystal-Based Prints.",
+      "A powerful web-based configurator for creating personalized rhinestone prints with full control over stone size, color, density, and quality. Users can either upload their own designs or generate them from custom text, instantly previewing the result with real-time visualization."
+    ],
+    mobilePreview: RhinestonesMobile,
+    desktopPreview: RhinestonesDesktop,
   },
 ];
 
