@@ -278,7 +278,7 @@ const projectsPortfolio = [
     imageUrl: UIPlaygroundPreview,
     category: [2],
     date: "2025",
-    demoLink: "",
+    demoLink: "https://ui-playground-eight.vercel.app/",
     tags: [
       ["react js", "next.js", "typescript", "tailwind css", "framer motion", "heroui", "lucide icons"],
       [],
