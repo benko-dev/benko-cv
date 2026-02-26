@@ -17,26 +17,10 @@ import AboutMe from "./pages/AboutMe";
 import Portfolio from "./pages/Portfolio";
 import Project from "./pages/Project.jsx";
 
-// HOUNTER
-import HounterPreview from './img/hounter/preview.png'
-import HounterMobile from "./img/hounter/mobile.png";
-import HounterDesktop from "./img/hounter/desktop.png";
-// CAFE STREET
-import CafePreview from "./img/cafestreet/preview.png";
-import CafeMobile from "./img/cafestreet/mobile.png";
-import CafeDesktop from "./img/cafestreet/desktop.png";
 // Art&Life
 import ArtPreview from "./img/art&life/preview.png";
 import ArtMobile from "./img/art&life/mobile.png";
 import ArtDesktop from "./img/art&life/desktop.png";
-// Sasha Shavit
-import SashaShavitPreview from "./img/SashaShavit/preview.png";
-import SashaShavitMobile from "./img/SashaShavit/mobile.png";
-import SashaShavitDesktop from "./img/SashaShavit/desktop.png";
-// MEMCOIN
-import MemcoinPreview from "./img/memcoin/preview.png";
-import MemcoinMobile from "./img/memcoin/mobile.png";
-import MemcoinDesktop from "./img/memcoin/desktop.png";
 // TODO
 import ToDoPreview from "./img/todo/preview.png";
 import ToDoMobile from "./img/todo/mobile.png";
