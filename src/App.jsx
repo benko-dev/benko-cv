@@ -62,6 +62,22 @@ import DtfDesktop from "./img/DTFConfigurator/desktop.png";
 import RhinestonesPreview from "./img/RhinestonesConfigurator/desktop.png";
 import RhinestonesMobile from "./img/RhinestonesConfigurator/mobile.png";
 import RhinestonesDesktop from "./img/RhinestonesConfigurator/desktop.png";
+// AI Dashboard
+import AIDashboardPreview from "./img/AIDashboard/desktop.png";
+import AIDashboardMobile from "./img/AIDashboard/mobile.png";
+import AIDashboardDesktop from "./img/AIDashboard/desktop.png";
+// Notion Clone (TODO: add ./img/NotionClone/ images)
+import NotionPreview from "./img/NotionClone/desktop.png";
+import NotionMobile from "./img/NotionClone/mobile.png";
+import NotionDesktop from "./img/NotionClone/desktop.png";
+// NOVA E-Commerce (TODO: add ./img/NOVA/ images)
+import NovaPreview from "./img/Nova/desktop.png";
+import NovaMobile from "./img/Nova/mobile.png";
+import NovaDesktop from "./img/Nova/desktop.png";
+// UI Playground
+import UIPlaygroundPreview from "./img/UIPlayground/desktop.png";
+import UIPlaygroundMobile from "./img/UIPlayground/mobile.png";
+import UIPlaygroundDesktop from "./img/UIPlayground/desktop.png";
 
 const projectsPortfolio = [
   {
@@ -127,6 +143,62 @@ const projectsPortfolio = [
   },
   {
     pos: 4,
+    title: "DTF Configurator",
+    label: "design & development",
+    imageUrl: DtfPreview,
+    category: [2, 1],
+    date: "2025",
+    demoLink: "https://dtfonline.pl/en/dtf-configurator/",
+    tags: [
+      [
+        "html",
+        "css/scss",
+        "js libraries",
+        "js/javascript",
+        "php",
+        "wordpress",
+        "custom plugins",
+      ],
+      ["figma"],
+      ["bem metodology", "flex-grid"],
+    ],
+    aboutText: [
+      "Custom Product Builder for Clothing Design.",
+      "An interactive product configurator that allows users to customize clothing items by selecting materials, sizes, colors, and uploading personal designs. Built with a focus on performance, usability, and mobile-first experience, it provides instant visual feedback and price calculation based on selected options."
+    ],
+    mobilePreview: DtfMobile,
+    desktopPreview: DtfDesktop,
+  },
+  {
+    pos: 5,
+    title: "Rhinestones Configurator",
+    label: "design & development",
+    imageUrl: RhinestonesPreview,
+    category: [2, 1],
+    date: "2025",
+    demoLink: "https://dtfonline.pl/en/rhinestones-configurator/",
+    tags: [
+      [
+        "html",
+        "css/scss",
+        "js libraries",
+        "js/javascript",
+        "php",
+        "wordpress",
+        "custom plugins",
+      ],
+      ["figma"],
+      ["bem metodology", "flex-grid"],
+    ],
+    aboutText: [
+      "Interactive Designer for Custom Crystal-Based Prints.",
+      "A powerful web-based configurator for creating personalized rhinestone prints with full control over stone size, color, density, and quality. Users can either upload their own designs or generate them from custom text, instantly previewing the result with real-time visualization."
+    ],
+    mobilePreview: RhinestonesMobile,
+    desktopPreview: RhinestonesDesktop,
+  },
+  {
+    pos: 6,
     title: "Creon App",
     label: "development",
     imageUrl: CreonPreview,
@@ -156,60 +228,84 @@ const projectsPortfolio = [
     desktopPreview: CreonDesktop,
   },
   {
-    pos: 5,
-    title: "DTF Configurator",
-    label: "design & development",
-    imageUrl: DtfPreview,
-    category: [2, 1],
+    pos: 7,
+    title: "AI Dashboard",
+    label: "development",
+    imageUrl: AIDashboardPreview,
+    category: [2],
     date: "2025",
-    demoLink: "https://dtfonline.pl/en/dtf-configurator/",
+    demoLink: "https://ai-dashboard-zeta-khaki.vercel.app/",
     tags: [
-      [
-        "html",
-        "css/scss",
-        "js libraries",
-        "js/javascript",
-        "php",
-        "wordpress",
-        "custom plugins",
-      ],
-      ["figma"],
-      ["bem metodology", "flex-grid"],
+      ["react js", "next.js", "typescript", "tailwind css", "framer motion", "heroui", "recharts"],
+      [],
+      ["git/github", "vercel"],
     ],
     aboutText: [
-      "Custom Product Builder for Clothing Design.",
-      "An interactive product configurator that allows users to customize clothing items by selecting materials, sizes, colors, and uploading personal designs. Built with a focus on performance, usability, and mobile-first experience, it provides instant visual feedback and price calculation based on selected options."
+      "A premium-style AI SaaS dashboard built with Next.js App Router, TypeScript, HeroUI, Tailwind CSS, and Framer Motion.",
+      "Showcases how to design and structure a modern analytics dashboard with polished UX and production-ready frontend architecture. Features collapsible sidebar navigation, stats cards, animated activity feed, interactive usage chart with 7/14-day range switcher, command palette (⌘K), dark/light theme toggle, skeleton loading states, and a fully responsive mobile-first layout.",
     ],
-    mobilePreview: DtfMobile,
-    desktopPreview: DtfDesktop,
+    mobilePreview: AIDashboardMobile,
+    desktopPreview: AIDashboardDesktop,
   },
   {
-    pos: 6,
-    title: "Rhinestones Configurator",
-    label: "design & development",
-    imageUrl: RhinestonesPreview,
-    category: [2, 1],
+    pos: 8,
+    title: "Notion Clone",
+    label: "development",
+    imageUrl: NotionPreview,
+    category: [2],
     date: "2025",
-    demoLink: "https://dtfonline.pl/en/rhinestones-configurator/",
+    demoLink: "https://notion-clone-livid-nu.vercel.app/",
     tags: [
-      [
-        "html",
-        "css/scss",
-        "js libraries",
-        "js/javascript",
-        "php",
-        "wordpress",
-        "custom plugins",
-      ],
-      ["figma"],
-      ["bem metodology", "flex-grid"],
+      ["react js", "next.js", "typescript", "tailwind css", "framer motion", "heroui", "dnd-kit"],
+      [],
+      ["git/github", "vercel", "local storage"],
     ],
     aboutText: [
-      "Interactive Designer for Custom Crystal-Based Prints.",
-      "A powerful web-based configurator for creating personalized rhinestone prints with full control over stone size, color, density, and quality. Users can either upload their own designs or generate them from custom text, instantly previewing the result with real-time visualization."
+      "A polished, Notion-inspired block editor built with Next.js App Router, TypeScript, Tailwind CSS v4, HeroUI, Framer Motion, and dnd-kit.",
+      "Features a block-based editor with local persistence, slash command menu with keyboard navigation, drag-and-drop block reordering, file sidebar with create/select/delete, dark/light theme with system preference fallback, and a responsive mobile layout. Supports text, headings, checklists, lists, separators, and image blocks.",
     ],
-    mobilePreview: RhinestonesMobile,
-    desktopPreview: RhinestonesDesktop,
+    mobilePreview: NotionMobile,
+    desktopPreview: NotionDesktop,
+  },
+  {
+    pos: 9,
+    title: "NOVA — E-Commerce",
+    label: "development",
+    imageUrl: NovaPreview,
+    category: [2],
+    date: "2025",
+    demoLink: "https://nova-sneakers.vercel.app/",
+    tags: [
+      ["react js", "next.js", "typescript", "tailwind css", "framer motion", "heroui"],
+      [],
+      ["git/github", "vercel"],
+    ],
+    aboutText: [
+      "NOVA is a frontend portfolio project for a premium footwear e-commerce experience, focusing on UI quality, interaction polish, and realistic store flows.",
+      "Features a full product catalog, collection search and filtering, product detail pages with variants and size selection, an editorial lookbook, multi-step checkout, cart and wishlist drawers with localStorage persistence, and a fully responsive UI for mobile and desktop.",
+    ],
+    mobilePreview: NovaMobile,
+    desktopPreview: NovaDesktop,
+  },
+  {
+    pos: 10,
+    title: "UI Playground",
+    label: "development",
+    imageUrl: UIPlaygroundPreview,
+    category: [2],
+    date: "2025",
+    demoLink: "",
+    tags: [
+      ["react js", "next.js", "typescript", "tailwind css", "framer motion", "heroui", "lucide icons"],
+      [],
+      ["git/github", "vercel", "local storage"],
+    ],
+    aboutText: [
+      "A minimal design-system playground built with Next.js, HeroUI, TypeScript, Tailwind CSS, and Framer Motion.",
+      "Lets you preview component states, tweak props live, and copy ready-to-use code snippets. Supports live controls for Button, Input, Card, and Modal — with size, variant, color, radius, and state toggles. Includes a dark/light theme switcher, card orientation toggle, and smooth Framer Motion transitions.",
+    ],
+    mobilePreview: UIPlaygroundMobile,
+    desktopPreview: UIPlaygroundDesktop,
   },
 ];
 
