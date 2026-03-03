@@ -62,6 +62,10 @@ import NovaDesktop from "./img/Nova/desktop.png";
 import UIPlaygroundPreview from "./img/UIPlayground/desktop.png";
 import UIPlaygroundMobile from "./img/UIPlayground/mobile.png";
 import UIPlaygroundDesktop from "./img/UIPlayground/desktop.png";
+// Product Landing
+import ProductLandingPreview from "./img/ProductLanding/desktop.png";
+import ProductLandingMobile from "./img/ProductLanding/mobile.png";
+import ProductLandingDesktop from "./img/ProductLanding/desktop.png";
 
 const projectsPortfolio = [
   {
@@ -290,6 +294,26 @@ const projectsPortfolio = [
     ],
     mobilePreview: UIPlaygroundMobile,
     desktopPreview: UIPlaygroundDesktop,
+  },
+  {
+    pos: 11,
+    title: "Product Landing [Concept]",
+    label: "development",
+    imageUrl: ProductLandingPreview,
+    category: [2],
+    date: "2026",
+    demoLink: "https://product-landing-dun.vercel.app/",
+    tags: [
+      ["next.js", "typescript", "tailwind css v4", "gsap", "framer motion", "heroui", "lenis"],
+      [],
+      ["git/github", "vercel"],
+    ],
+    aboutText: [
+      "An interactive, scroll-driven portfolio/landing page built with Next.js App Router, TypeScript, GSAP, and HeroUI.",
+      "Features a cinematic hero intro with layered parallax and masked text reveal, a pinned video timeline section with scroll-synced playback, animated Skills, Specs, and CTA sections with staggered reveals, and foreground/depth layering for a game-landing-page style motion feel. Integrates Lenis for smooth scrolling and supports reduced-motion preferences.",
+    ],
+    mobilePreview: ProductLandingMobile,
+    desktopPreview: ProductLandingDesktop,
   },
 ];
 
