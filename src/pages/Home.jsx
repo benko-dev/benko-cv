@@ -81,7 +81,7 @@ function Home({
               data-aos-easing=".71,.17,.28,.83">
               <Parallax speed={8}>
                 <div className="hero__image">
-                  <img src={heroImage} alt="Dima Dzyubenko" />
+                  <img src={heroImage} alt="Dima Dziubenko" />
                 </div>
               </Parallax>
 
